@@ -1,9 +1,8 @@
 'use strict'
 
-
-const pages = ["home", "chi sono", "contattaci"] //those pages are a mock for what that will be the server in the future
 const navbar = document.querySelector('#navigation') //id for the navbar selection
 const selectorContent = document.querySelector("#content") //id for the content selection
+
 window.addEventListener('hashchange', renderContent); //observable for the route change
 
 
